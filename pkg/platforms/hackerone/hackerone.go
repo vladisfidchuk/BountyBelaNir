@@ -88,6 +88,7 @@ func getProgramScope(authorization string, id string, bbpOnly bool, categories [
 		}
 
 		if l == 0 {
+			fmt.Printf(currentPageURL)
 			pData.InScope = append(pData.InScope, scope.ScopeElement{Target: "NO_IN_SCOPE_TABLE", Description: "", Category: ""})
 		}
 
