@@ -9,10 +9,10 @@ info:
   reference:
     - https://x.com/codewhitesec/status/1831720125747069389?s=46
   metadata:
-    shodan-query: html:"Veeam Backup"
+    shodan-query: html:"snooserv"
     verified: true
     max-request: 1
-  tags: cve,cve2024,veeam,backup,unauth
+  tags: cve,cve2024,snooserv,backup,unauth
 
 http:
   - method: GET
